@@ -1,0 +1,33 @@
+
+> @theme/bubblegum@0.0.1 build
+> astro build
+
+11:33:10 am [build] output target: static
+11:33:10 am [build] Collecting build info...
+11:33:10 am [build] Completed in 408ms.
+11:33:10 am [build] Building static entrypoints...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+11:33:31 am [build] Completed in 21.53s.
+
+ building client 
+Completed in 570ms.
+
+
+ generating static routes 
+▶ src/pages/index.astro
+  └─ /index.html (+90ms)
+▶ src/pages/projects.astro
+  └─ /projects/index.html (+60ms)
+λ src/pages/rss.xml.ts
+  └─ /rss.xml (+16ms)
+▶ src/pages/blog/[slug].astro
+▶ src/pages/blog.astro
+  └─ /blog/index.html (+16ms)
+Completed in 497ms.
+
+[32m@astrojs/sitemap:[0m `sitemap-index.xml` is created.
+
+11:33:33 am [build] 3 page(s) built in 23.13s
+11:33:33 am [build] Complete!
